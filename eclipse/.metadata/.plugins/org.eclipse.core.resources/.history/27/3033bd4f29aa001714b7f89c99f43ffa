@@ -1,0 +1,29 @@
+package com.andrewmatayka.testmod;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.Instance;
+import cpw.mods.fml.common.event.*;
+
+@Mod(modid = "TestMod", name = "Test Mod", version = "1.7.10-1.0")
+public class TestMod {
+	@Mod.Instance("TestMod")
+	public static TestMod instance;
+	
+	@SidedProxy(clientSide = "ClientProxy", serverSide = "ServerProxy")
+	public static IProxy proxy;
+	
+	@Mod.EventHandler
+	public void preInit(FMLPreInitializationEvent event) {
+		
+	}
+	
+	@Mod.EventHandler
+	public void init(FMLInitializationEvent event) {
+		
+	}
+	
+	@Mod.EventHandler
+	public void postInit(FMLPostInitializationEvent event) {
+		
+	}
+}

@@ -1,0 +1,5 @@
+package com.andrewmatayka.testmod.proxy;
+
+public class CommonProxy implements IProxy{
+
+}

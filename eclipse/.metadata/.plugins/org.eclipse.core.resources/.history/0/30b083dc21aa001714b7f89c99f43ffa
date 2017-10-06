@@ -1,0 +1,17 @@
+[{
+
+"modid": "testmod",
+"name": "Test Mod",
+"description": "This mod is used just for testing and obviously no one would want to download a mod that adds nothing...",
+"mcversion": "1.7.10",
+"version": "1.0",
+"url": "", 
+"updateUrl": "",
+"authorList": [ "mcpcfanc", "Test Author" ],
+"credits": "By mcpcfanc, for making this example",
+"logoFile": "/testmodlogo.png",
+"screenshots": [], 
+"parent":"", 
+"dependencies": [ ]
+
+}]

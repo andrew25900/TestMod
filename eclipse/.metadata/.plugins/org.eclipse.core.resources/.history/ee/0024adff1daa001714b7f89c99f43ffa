@@ -1,0 +1,11 @@
+package com.andrewmatayka.testmod;
+
+import cpw.mods.fml.common.Mod;
+
+@Mod(modid = "TestMod", name = "Test Mod", version = "1.7.10-1.0")
+public class TestMod {
+	@Mod.EventHandler
+	public void preInit() {
+		
+	}
+}
