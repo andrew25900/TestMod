@@ -1,7 +1,0 @@
-package init;
-
-public class Snippet {
-	
-	public static void all (Object object) { log(Level.ALL, object); }
-}
-

@@ -1,7 +1,0 @@
-package com.andrewmatayka.testmod.proxy;
-
-public interface IProxy {
-	public abstract void doClientThing() {
-		
-	}
-}

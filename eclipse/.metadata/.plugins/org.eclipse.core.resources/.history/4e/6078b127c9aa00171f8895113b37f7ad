@@ -1,9 +1,0 @@
-package com.andrewmatayka.testmod.init;
-
-public class ModBlocks {
-	public static final BlockTM flag = new BlockFlag();
-	
-	public static void init() {
-		GameRegistry.registerBlock(flag, "flag");
-	}
-}
