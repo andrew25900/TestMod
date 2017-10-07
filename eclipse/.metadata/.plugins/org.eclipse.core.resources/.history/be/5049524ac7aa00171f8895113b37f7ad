@@ -1,0 +1,10 @@
+package com.andrewmatayka.testmod.block;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class BlockTM extends Block{
+	public Block(Material material) {
+		super (material);
+	}
+}

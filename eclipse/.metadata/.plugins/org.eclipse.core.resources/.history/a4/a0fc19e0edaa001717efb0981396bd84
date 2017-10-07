@@ -1,0 +1,9 @@
+package com.andrewmatayka.testmod.creativetab;
+
+public class CreativeTabTM extends CreativeTabs {
+
+	public static final CreativeTabs tabTM = new CreativeTabs(10, "Test Mod") {
+		
+	}
+	
+}

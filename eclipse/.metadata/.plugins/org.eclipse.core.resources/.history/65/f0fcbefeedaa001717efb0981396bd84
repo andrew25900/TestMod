@@ -1,0 +1,11 @@
+package com.andrewmatayka.testmod.creativetab;
+
+import net.minecraft.creativetab.CreativeTabs;
+
+public class CreativeTabTM extends CreativeTabs {
+	
+	
+	public static final CreativeTabs tabTM = new CreativeTabs(10, "Test Mod") {
+		
+	}
+}

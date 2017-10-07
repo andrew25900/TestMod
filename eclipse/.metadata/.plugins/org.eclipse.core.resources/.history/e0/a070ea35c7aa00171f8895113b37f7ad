@@ -1,0 +1,7 @@
+package com.andrewmatayka.testmod.block;
+
+import net.minecraft.block.Block;
+
+public class BlockTM extends Block{
+	
+}

@@ -5,8 +5,11 @@ import com.andrewmatayka.testmod.reference.Reference;
 import cpw.mods.fml.common.Mod;
 
 import com.andrewmatayka.testmod.handler.ConfigurationHandler;
+import com.andrewmatayka.testmod.init.ModBlocks;
+import com.andrewmatayka.testmod.init.ModItems;
 import com.andrewmatayka.testmod.proxy.IProxy;
 
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod.Instance;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.*;
@@ -22,6 +25,11 @@ public class TestMod {
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 		ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+		FMLCommonHandler.instance().bus().register((new ConfigurationHandler()));
+		
+		ModItems.init();
+		
+		ModBlocks.init();
 	}
 	
 	@Mod.EventHandler

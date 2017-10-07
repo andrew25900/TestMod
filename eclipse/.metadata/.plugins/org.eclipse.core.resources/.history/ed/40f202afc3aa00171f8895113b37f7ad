@@ -1,0 +1,7 @@
+package com.andrewmatayka.testmod.item;
+
+public class ItemMapleLeaf extends ItemTM {
+	public ItemMapleLeaf() {
+		super();
+	}
+}
